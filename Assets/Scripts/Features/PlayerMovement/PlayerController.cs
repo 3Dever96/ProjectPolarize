@@ -1,3 +1,4 @@
+using System.Threading;
 using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider2D)), RequireComponent(typeof(Rigidbody2D))]
@@ -8,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float CurrentSpeed { get; set; }
     public float VerticalSpeed { get; set; }
 
+    public bool CanJump {  get; set; }
+
     public PlayerState CurrentState { get; private set; }
 
     [Header("Universal Movement Variables")]
@@ -16,6 +19,13 @@ public class PlayerController : MonoBehaviour
     public float gravity;
 
     public PlayerGroundState groundState = new PlayerGroundState();
+    public PlayerAirState airState = new PlayerAirState();
+
+    [Header("Collision Information")]
+    public Vector2 groundCollisionOffset;
+    public Vector2 headCollisionOffset;
+    public Vector2 collisionRadius;
+    public LayerMask collisionMask;
 
     void Start()
     {

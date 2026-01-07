@@ -13,6 +13,9 @@ public class PlayerGroundState : PlayerState
         {
             input = InputManager.instance;
         }
+
+        player.VerticalSpeed = 0f;
+        player.CanJump = false;
     }
 
     public override void UpdateState(PlayerController player)
@@ -58,12 +61,25 @@ public class PlayerGroundState : PlayerState
             player.CurrentSpeed -= Mathf.Min(fric * Time.deltaTime, Mathf.Abs(player.CurrentSpeed)) * Mathf.Sign(player.CurrentSpeed);
         }
 
+        if (input.Jump && player.CanJump)
+        {
+            player.VerticalSpeed = player.jumpSpeed;
+        }
+
+        if (!input.Jump && !player.CanJump)
+        {
+            player.CanJump = true;
+        }
+
         player.MovePlayer();
     }
 
     public override void ChangeState(PlayerController player)
     {
-        
+        if (player.VerticalSpeed > 0f || !Physics2D.OverlapBox(player.RB.position + player.groundCollisionOffset, player.collisionRadius, 0f, LayerMask.GetMask("Solid")))
+        {
+            player.SetState(player.airState);
+        }
     }
 
     public override void ExitState(PlayerController player)
