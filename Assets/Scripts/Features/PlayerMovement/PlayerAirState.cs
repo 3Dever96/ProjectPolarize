@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerAirState : PlayerState
 {
     [SerializeField] float fallSpeed;
+    [SerializeField] float jumpBufferMultiplier;
 
     bool isJumping;
 
@@ -44,9 +45,42 @@ public class PlayerAirState : PlayerState
 
     public override void ChangeState(PlayerController player)
     {
+        if (Physics2D.OverlapBox(player.RB.position + player.groundCollisionOffset * jumpBufferMultiplier, player.collisionRadius + new Vector2(0f, 1.5f), 0f, player.collisionMask))
+        {
+            if (player.CanJump)
+            {
+                if (input.Jump)
+                {
+                    isJumping = true;
+                    player.CanJump = false;
+                }
+            }
+
+            if (!input.Jump)
+            {
+                isJumping = false;
+            }
+
+            if (!input.Jump && !player.CanJump)
+            {
+                player.CanJump = true;
+            }
+        }
+        else
+        {
+            isJumping = false;
+        }
+
         if (player.VerticalSpeed <= 0f && Physics2D.OverlapBox(player.RB.position + player.groundCollisionOffset, player.collisionRadius, 0f, player.collisionMask))
         {
-            player.SetState(player.groundState);
+            if (!isJumping)
+            {
+                player.SetState(player.groundState);
+            }
+            else
+            {
+                player.VerticalSpeed = player.jumpSpeed;
+            }
         }
     }
 

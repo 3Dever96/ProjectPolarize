@@ -6,6 +6,9 @@ public class PlayerGroundState : PlayerState
     [SerializeField] float accel;
     [SerializeField] float decel;
     [SerializeField] float fric;
+    [SerializeField] float coyoteTime;
+
+    float currentCoyoteTime;
 
     public override void StartState(PlayerController player)
     {
@@ -16,6 +19,8 @@ public class PlayerGroundState : PlayerState
 
         player.VerticalSpeed = 0f;
         player.CanJump = false;
+
+        currentCoyoteTime = coyoteTime;
     }
 
     public override void UpdateState(PlayerController player)
@@ -76,7 +81,16 @@ public class PlayerGroundState : PlayerState
 
     public override void ChangeState(PlayerController player)
     {
-        if (player.VerticalSpeed > 0f || !Physics2D.OverlapBox(player.RB.position + player.groundCollisionOffset, player.collisionRadius, 0f, LayerMask.GetMask("Solid")))
+        if (!Physics2D.OverlapBox(player.RB.position + player.groundCollisionOffset, player.collisionRadius, 0f, LayerMask.GetMask("Solid")))
+        {
+            currentCoyoteTime -= Time.deltaTime;
+        }
+        else
+        {
+            currentCoyoteTime = coyoteTime;
+        }
+
+        if (player.VerticalSpeed > 0f || currentCoyoteTime <= 0f)
         {
             player.SetState(player.airState);
         }
