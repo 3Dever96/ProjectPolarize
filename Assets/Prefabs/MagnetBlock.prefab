@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 4431749909956559023}
   - component: {fileID: 3011065398108328299}
   m_Layer: 3
-  m_Name: Sprite
+  m_Name: SolidBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

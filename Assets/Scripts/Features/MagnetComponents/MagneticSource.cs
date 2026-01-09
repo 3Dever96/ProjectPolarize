@@ -5,8 +5,8 @@ using UnityEngine;
 public class MagneticSource : MonoBehaviour
 {
     [SerializeField] float field;
-    [SerializeField] float strength;
-    [SerializeField, Range(-1, 1)] int polarity;
+    public float strength;
+    [Range(-1, 1)]  public int polarity;
 
     [SerializeField] Color positiveColor;
     [SerializeField] Color neutralColor;
