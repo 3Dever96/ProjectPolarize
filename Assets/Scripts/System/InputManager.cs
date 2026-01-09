@@ -8,8 +8,7 @@ public class InputManager : MonoBehaviour
     public bool Jump { get { return jump; } }
     public bool Attack { get { return attack; } }
     public bool Beam { get { return beam; } }
-    public bool Positive { get { return positive; } }
-    public bool Negative { get { return negative; } }
+    public int Polarity { get { return polarity; } }
     public bool Pause { get {  return pause; } }
 
     public static InputManager instance;
@@ -19,8 +18,7 @@ public class InputManager : MonoBehaviour
     bool jump;
     bool attack;
     bool beam;
-    bool positive;
-    bool negative;
+    int polarity;
     bool pause;
 
     void Awake() 
@@ -66,11 +64,8 @@ public class InputManager : MonoBehaviour
             case "Beam":
                 SetBool(context, ref beam);
                 break;
-            case "Positive":
-                SetBool(context, ref positive);
-                break;
-            case "Negative":
-                SetBool(context, ref negative);
+            case "Polarity":
+                polarity = (int)context.ReadValue<float>();
                 break;
             case "Pause":
                 SetBool(context, ref pause);

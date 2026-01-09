@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float CurrentSpeed { get; set; }
     public float VerticalSpeed { get; set; }
 
+    public Vector2 MagneticForce { get; set; }
+
     public bool CanJump {  get; set; }
 
     public PlayerState CurrentState { get; private set; }
@@ -60,7 +62,16 @@ public class PlayerController : MonoBehaviour
 
     public void MovePlayer()
     {
+        Vector2 magnet = MagneticForce;
         Vector2 velocity = Vector2.right * CurrentSpeed;
+
+        velocity.x += magnet.x;
+
+        if (magnet.y != 0f)
+        {
+            VerticalSpeed = magnet.y;
+        }
+
         velocity.y = VerticalSpeed;
 
         RB.MovePosition(RB.position + velocity * Time.deltaTime);
