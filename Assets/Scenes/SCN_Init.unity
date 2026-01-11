@@ -182,10 +182,10 @@ MonoBehaviour:
   fadeImage: {fileID: 648634280}
   fadeDuration: 1
   startScenesToLoad:
-  - m_SceneAsset: {fileID: 102900000, guid: 05a247cfae9b7f846b33c6415bb5bbeb, type: 3}
-    m_SceneName: SCN_Graybox_00
   - m_SceneAsset: {fileID: 102900000, guid: 47e07063380e4ce46b2037b43550b30b, type: 3}
     m_SceneName: SCN_Player
+  - m_SceneAsset: {fileID: 102900000, guid: 05a247cfae9b7f846b33c6415bb5bbeb, type: 3}
+    m_SceneName: SCN_Graybox_00
 --- !u!4 &411597883
 Transform:
   m_ObjectHideFlags: 0
@@ -301,13 +301,13 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.33333334
-    width: 2
-    height: 2
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 34
+    x: 1.30625
+    y: 0
+    width: 1.588889
+    height: 1.5888889
+  near clip plane: 0.1
+  far clip plane: 5000
+  field of view: 40
   orthographic: 1
   orthographic size: 5.625
   m_Depth: -1
