@@ -16,6 +16,9 @@ public class RoomManager : MonoBehaviour
     [SerializeField] float fadeDuration = 1.0f; // Duration of fade effect
     [SerializeField] List<SceneField> startScenesToLoad;
 
+    public delegate void LoadNewSceneDelegate();
+    public LoadNewSceneDelegate sceneDelegate;
+
     void Awake()
     {
         if (instance == null)
@@ -59,6 +62,11 @@ public class RoomManager : MonoBehaviour
         if (room != null)
         {
             room.AlignPosition();
+        }
+
+        if (sceneDelegate != null)
+        {
+            sceneDelegate.Invoke();
         }
 
         if (oldScenes.Count != 0)
