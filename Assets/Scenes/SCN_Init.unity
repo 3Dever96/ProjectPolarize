@@ -337,7 +337,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 966044036}
+        m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
+        m_MethodName: OnQuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &70018080
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -560,10 +572,9 @@ MonoBehaviour:
   fadeImage: {fileID: 648634280}
   fadeDuration: 1
   startScenesToLoad:
-  - m_SceneAsset: {fileID: 102900000, guid: 47e07063380e4ce46b2037b43550b30b, type: 3}
-    m_SceneName: SCN_Player
-  - m_SceneAsset: {fileID: 102900000, guid: 05a247cfae9b7f846b33c6415bb5bbeb, type: 3}
-    m_SceneName: SCN_Graybox_00
+  - m_SceneAsset: {fileID: 102900000, guid: b2e90be41e3f90e48ac482e7aa60a50e, type: 3}
+    m_SceneName: SCN_MainMenu
+  currentLoadedScenes: []
 --- !u!4 &411597883
 Transform:
   m_ObjectHideFlags: 0
@@ -1217,7 +1228,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!1 &840080789
 GameObject:
@@ -1519,6 +1530,9 @@ MonoBehaviour:
   cursorTransform: {fileID: 1013483743}
   startSelection: {fileID: 477310718}
   cursorOffset: -50
+  scenesToLoad:
+  - m_SceneAsset: {fileID: 102900000, guid: b2e90be41e3f90e48ac482e7aa60a50e, type: 3}
+    m_SceneName: SCN_MainMenu
 --- !u!1 &1013483742
 GameObject:
   m_ObjectHideFlags: 0

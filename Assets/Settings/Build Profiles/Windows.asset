@@ -24,6 +24,9 @@ MonoBehaviour:
     m_path: Assets/Scenes/SCN_Init.unity
     m_guid: 15bbb2ac1c60077428861e84a7a8805f
   - m_enabled: 1
+    m_path: Assets/Scenes/SCN_MainMenu.unity
+    m_guid: b2e90be41e3f90e48ac482e7aa60a50e
+  - m_enabled: 1
     m_path: Assets/Scenes/SCN_Player.unity
     m_guid: 47e07063380e4ce46b2037b43550b30b
   - m_enabled: 1

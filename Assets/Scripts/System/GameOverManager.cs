@@ -2,7 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using Unity.VisualScripting;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameOverManager : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class GameOverManager : MonoBehaviour
     GameObject currentSelection;
     RectTransform currentTransform;
 
+    [Header("Scenes To Load")]
+    [SerializeField] List<SceneField> scenesToLoad;
+
     private void Update()
     {
         if (GameManager.instance.GameState == GameState.GameOver)
@@ -30,7 +34,15 @@ public class GameOverManager : MonoBehaviour
             if (currentSelection != EventSystem.current.currentSelectedGameObject)
             {
                 currentSelection = EventSystem.current.currentSelectedGameObject;
-                currentTransform = currentSelection.GetComponent<RectTransform>();
+
+                if (currentSelection != null)
+                {
+                    currentTransform = currentSelection.GetComponent<RectTransform>();
+                }
+                else
+                {
+                    currentTransform = null;
+                }
             }
 
             if (currentTransform != null)
@@ -91,5 +103,26 @@ public class GameOverManager : MonoBehaviour
         }
 
         EventSystem.current.SetSelectedGameObject(startSelection);
+    }
+
+    void ResetGameOver()
+    {
+        gameOverMenu.SetActive(false);
+        RoomManager.instance.sceneDelegate -= ResetGameOver;
+    }
+
+    public void OnQuitGame()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        RoomManager.instance.sceneDelegate += ResetGameOver;
+
+        List<SceneField> oldScenes = new List<SceneField>();
+
+        foreach (SceneField s in RoomManager.instance.currentLoadedScenes)
+        {
+            oldScenes.Add(s);
+        }
+
+        RoomManager.instance.LoadNewScenes(scenesToLoad, oldScenes, null);
     }
 }

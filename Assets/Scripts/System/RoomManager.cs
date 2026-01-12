@@ -15,6 +15,7 @@ public class RoomManager : MonoBehaviour
     [SerializeField] Image fadeImage; // Assign a UI Image in the Inspector for fade effect
     [SerializeField] float fadeDuration = 1.0f; // Duration of fade effect
     [SerializeField] List<SceneField> startScenesToLoad;
+    public List<SceneField> currentLoadedScenes;
 
     public delegate void LoadNewSceneDelegate();
     public LoadNewSceneDelegate sceneDelegate;
@@ -50,8 +51,13 @@ public class RoomManager : MonoBehaviour
         Time.timeScale = 0f;
         yield return StartCoroutine(FadeOut());
 
-        foreach (string sceneName in newScenes)
+        foreach (SceneField sceneName in newScenes)
         {
+            if (!currentLoadedScenes.Contains(sceneName))
+            {
+                currentLoadedScenes.Add(sceneName);
+            }
+
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
             while (!asyncLoad.isDone)
             {
@@ -71,8 +77,16 @@ public class RoomManager : MonoBehaviour
 
         if (oldScenes.Count != 0)
         {
-            foreach (string sceneName in oldScenes)
+            foreach (SceneField sceneName in oldScenes)
             {
+                for (var i = currentLoadedScenes.Count - 1; i >= 0; i--)
+                {
+                    if (currentLoadedScenes[i].SceneName == sceneName)
+                    {
+                        currentLoadedScenes.RemoveAt(i);
+                    }
+                }
+
                 AsyncOperation asyncUnload = SceneManager.UnloadSceneAsync(sceneName);
                 while (!asyncUnload.isDone)
                 {
