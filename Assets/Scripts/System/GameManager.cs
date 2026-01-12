@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
+    public delegate void GameOverDelegate();
+    public GameOverDelegate gameOver;
+
     void Awake()
     {
         if (instance == null)
@@ -18,6 +21,15 @@ public class GameManager : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+        }
+    }
+
+    public void OnGameOver()
+    {
+        GameState = GameState.GameOver;
+        if (gameOver != null)
+        {
+            gameOver.Invoke();
         }
     }
 }

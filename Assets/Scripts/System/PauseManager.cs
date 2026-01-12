@@ -6,6 +6,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject firstSelection;
     [SerializeField] RectTransform cursor;
+    [SerializeField] float cursorOffset;
     GameObject current;
     RectTransform currentTransform;
     bool canPause;
@@ -34,7 +35,7 @@ public class PauseManager : MonoBehaviour
 
             if (currentTransform != null)
             {
-                cursor.localPosition = new Vector2(cursor.localPosition.x, currentTransform.localPosition.y);
+                cursor.localPosition = new Vector2(cursor.localPosition.x, currentTransform.localPosition.y + cursorOffset);
             }
 
             if (InputManager.instance.Pause && canPause)

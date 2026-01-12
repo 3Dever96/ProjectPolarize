@@ -2814,7 +2814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d409e5651e802a43a52133a114b6dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  maxHp: 24
+  maxHp: 3
   currentHp: 0
   atk: 0
   iFrames: 2
