@@ -10,11 +10,34 @@ public class PlayerProjectile : MonoBehaviour
     [SerializeField] float lifeTime;
     int atk;
 
-    public void Shoot(Vector2 direction, int strength)
-    {
-        body = GetComponent<Rigidbody2D>();
+    PlayerProjectilePool pool;
 
-        body.linearVelocity = direction * speed;
+    void Start()
+    {
+        pool = FindFirstObjectByType<PlayerProjectilePool>();
+    }
+
+    void OnEnable()
+    {
+        if (pool == null)
+        {
+            pool = FindFirstObjectByType<PlayerProjectilePool>();
+        }
+
+        if (body == null)
+        {
+            body = GetComponent<Rigidbody2D>();
+        }
+    }
+
+    public void Shoot(Vector3 spawnPoint, Vector2 direction, int strength)
+    {
+        transform.position = spawnPoint;
+
+        if (body != null)
+        {
+            body.linearVelocity = direction * speed;
+        }
 
         atk = strength;
 
@@ -36,7 +59,7 @@ public class PlayerProjectile : MonoBehaviour
                     enemy.TakeDamage(atk);
                 }
 
-                Destroy(gameObject);
+                pool.ResetProjectile(this);
             }
         }
     }
@@ -45,6 +68,6 @@ public class PlayerProjectile : MonoBehaviour
     {
         yield return new WaitForSeconds(lifeTime);
 
-        Destroy(gameObject);
+        pool.ResetProjectile(this);
     }
 }

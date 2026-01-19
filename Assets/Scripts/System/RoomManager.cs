@@ -3,6 +3,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -15,6 +16,10 @@ public class RoomManager : MonoBehaviour
     [SerializeField] Image fadeImage; // Assign a UI Image in the Inspector for fade effect
     [SerializeField] float fadeDuration = 1.0f; // Duration of fade effect
     [SerializeField] List<SceneField> startScenesToLoad;
+    public List<SceneField> currentLoadedScenes;
+
+    public delegate void LoadNewSceneDelegate();
+    public LoadNewSceneDelegate sceneDelegate;
 
     void Awake()
     {
@@ -47,8 +52,15 @@ public class RoomManager : MonoBehaviour
         Time.timeScale = 0f;
         yield return StartCoroutine(FadeOut());
 
-        foreach (string sceneName in newScenes)
+        List<SceneField> newLoadedScenes = new List<SceneField>();
+
+        foreach (SceneField sceneName in newScenes)
         {
+            if (!newLoadedScenes.Contains(sceneName))
+            {
+                newLoadedScenes.Add(sceneName);
+            }
+
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
             while (!asyncLoad.isDone)
             {
@@ -61,15 +73,36 @@ public class RoomManager : MonoBehaviour
             room.AlignPosition();
         }
 
+        if (sceneDelegate != null)
+        {
+            sceneDelegate.Invoke();
+        }
+
         if (oldScenes.Count != 0)
         {
-            foreach (string sceneName in oldScenes)
+            foreach (SceneField sceneName in oldScenes)
             {
+                for (var i = currentLoadedScenes.Count - 1; i >= 0; i--)
+                {
+                    if (currentLoadedScenes[i].SceneName == sceneName)
+                    {
+                        currentLoadedScenes.RemoveAt(i);
+                    }
+                }
+
                 AsyncOperation asyncUnload = SceneManager.UnloadSceneAsync(sceneName);
                 while (!asyncUnload.isDone)
                 {
                     yield return null;
                 }
+            }
+        }
+
+        if (newLoadedScenes.Count > 0)
+        {
+            for (var i = 0; i < newLoadedScenes.Count; i++)
+            {
+                currentLoadedScenes.Add(newLoadedScenes[i]);
             }
         }
 

@@ -11,9 +11,12 @@ public class PlayerAttack : MonoBehaviour
 
     int currentAtk;
 
+    PlayerProjectilePool pool;
+
     void Start()
     {
         lastDirection = Vector2.right;
+        pool = FindFirstObjectByType<PlayerProjectilePool>();
     }
 
     void Update()
@@ -38,8 +41,8 @@ public class PlayerAttack : MonoBehaviour
         if (InputManager.instance.Attack && canShoot)
         {
             currentAtk = 1;
-            PlayerProjectile bullet = Instantiate(smallBullet, transform.position, Quaternion.identity).GetComponent<PlayerProjectile>();
-            bullet.Shoot(direction, currentAtk);
+            PlayerProjectile bullet = pool.SpawnProjectile();
+            bullet.Shoot(transform.position, direction, currentAtk);
             canShoot = false;
         }
 
