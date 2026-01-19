@@ -41,6 +41,9 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/SCN_Graybox_03.unity
     m_guid: 38a688ad5aa5fd549bcbe1ef5f77bf04
+  - m_enabled: 1
+    m_path: Assets/Scenes/SCN_TestSave.unity
+    m_guid: a2211228f97bda74cb20dd7b65b95212
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

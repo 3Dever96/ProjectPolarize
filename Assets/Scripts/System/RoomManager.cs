@@ -3,6 +3,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -51,11 +52,13 @@ public class RoomManager : MonoBehaviour
         Time.timeScale = 0f;
         yield return StartCoroutine(FadeOut());
 
+        List<SceneField> newLoadedScenes = new List<SceneField>();
+
         foreach (SceneField sceneName in newScenes)
         {
-            if (!currentLoadedScenes.Contains(sceneName))
+            if (!newLoadedScenes.Contains(sceneName))
             {
-                currentLoadedScenes.Add(sceneName);
+                newLoadedScenes.Add(sceneName);
             }
 
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
@@ -92,6 +95,14 @@ public class RoomManager : MonoBehaviour
                 {
                     yield return null;
                 }
+            }
+        }
+
+        if (newLoadedScenes.Count > 0)
+        {
+            for (var i = 0; i < newLoadedScenes.Count; i++)
+            {
+                currentLoadedScenes.Add(newLoadedScenes[i]);
             }
         }
 

@@ -1,12 +1,8 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [SerializeField] List<SceneField> roomsToLoad;
-    [SerializeField] List<SceneField> roomsToUnload;
-
     [SerializeField] GameObject startSection;
 
     void Start()
@@ -17,14 +13,18 @@ public class MainMenuManager : MonoBehaviour
 
     public void NewGame()
     {
+        PlayerManager.instance.CreateNewPlayerData();
         GameManager.instance.GameState = GameState.Play;
         EventSystem.current.SetSelectedGameObject(null);
-        RoomManager.instance.LoadNewScenes(roomsToLoad, roomsToUnload, null);
     }
 
     public void LoadGame()
     {
-
+        if (PlayerManager.instance.LoadPlayerData())
+        {
+            GameManager.instance.GameState = GameState.Play;
+            EventSystem.current.SetSelectedGameObject(null);
+        }
     }
 
     public void CloseGame()

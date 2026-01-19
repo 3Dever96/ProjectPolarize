@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        transform.position = PlayerManager.instance.startingPosition;
+
         RB = GetComponent<Rigidbody2D>();
 
         SetState(groundState);

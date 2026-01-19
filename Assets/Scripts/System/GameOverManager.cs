@@ -3,7 +3,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 
 public class GameOverManager : MonoBehaviour
 {
@@ -124,5 +123,12 @@ public class GameOverManager : MonoBehaviour
         }
 
         RoomManager.instance.LoadNewScenes(scenesToLoad, oldScenes, null);
+    }
+
+    public void OnRetry()
+    {
+        RoomManager.instance.sceneDelegate += ResetGameOver;
+        EventSystem.current.SetSelectedGameObject(null);
+        PlayerManager.instance.ResetPlayer();
     }
 }
