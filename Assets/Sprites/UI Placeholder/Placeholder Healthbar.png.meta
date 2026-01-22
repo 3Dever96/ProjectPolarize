@@ -1,0 +1,1832 @@
+fileFormatVersion: 2
+guid: f480a752ea3b45a4fbd9484f58fe12f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 628667184121920697
+    second: Placeholder Healthbar_0
+  - first:
+      213: -3018145318629131756
+    second: Placeholder Healthbar_1
+  - first:
+      213: 1684111103840678719
+    second: Placeholder Healthbar_2
+  - first:
+      213: -5828271535211668397
+    second: Placeholder Healthbar_3
+  - first:
+      213: 2316541115992031503
+    second: Placeholder Healthbar_4
+  - first:
+      213: 4116430204751398934
+    second: Placeholder Healthbar_5
+  - first:
+      213: 8129817331934476013
+    second: Placeholder Healthbar_6
+  - first:
+      213: -8964977504490387557
+    second: Placeholder Healthbar_7
+  - first:
+      213: 8157968197602240809
+    second: Placeholder Healthbar_8
+  - first:
+      213: -147461905346713916
+    second: Placeholder Healthbar_9
+  - first:
+      213: 8311225480772543422
+    second: Placeholder Healthbar_10
+  - first:
+      213: -5781971444508182898
+    second: Placeholder Healthbar_11
+  - first:
+      213: 257806819861125379
+    second: Placeholder Healthbar_12
+  - first:
+      213: 6321743846424100299
+    second: Placeholder Healthbar_13
+  - first:
+      213: 8454231035499216495
+    second: Placeholder Healthbar_14
+  - first:
+      213: 4023180499887691297
+    second: Placeholder Healthbar_15
+  - first:
+      213: 7455727812294667161
+    second: Placeholder Healthbar_16
+  - first:
+      213: -9021472724969288253
+    second: Placeholder Healthbar_17
+  - first:
+      213: 7374968184316923781
+    second: Placeholder Healthbar_18
+  - first:
+      213: -7275440335921514689
+    second: Placeholder Healthbar_19
+  - first:
+      213: 7516526237956109638
+    second: Placeholder Healthbar_20
+  - first:
+      213: -5625521394013988843
+    second: Placeholder Healthbar_21
+  - first:
+      213: -6736468624038832064
+    second: Placeholder Healthbar_22
+  - first:
+      213: 7924664389811481162
+    second: Placeholder Healthbar_23
+  - first:
+      213: 8421612892599170029
+    second: Placeholder Healthbar_24
+  - first:
+      213: 5015529588982647719
+    second: Placeholder Healthbar_25
+  - first:
+      213: -4458127098923806633
+    second: Placeholder Healthbar_26
+  - first:
+      213: -1704618914956863601
+    second: Placeholder Healthbar_27
+  - first:
+      213: 6144954293703396888
+    second: Placeholder Healthbar_28
+  - first:
+      213: 148793077161252394
+    second: Placeholder Healthbar_29
+  - first:
+      213: -7993639350379690031
+    second: Placeholder Healthbar_30
+  - first:
+      213: -6058286445625790416
+    second: Placeholder Healthbar_31
+  - first:
+      213: 1636102076252178486
+    second: Placeholder Healthbar_32
+  - first:
+      213: 8295865556398092592
+    second: Placeholder Healthbar_33
+  - first:
+      213: -8299850409993416623
+    second: Placeholder Healthbar_34
+  - first:
+      213: 8334266691957272189
+    second: Placeholder Healthbar_35
+  - first:
+      213: 3130542980293483710
+    second: Placeholder Healthbar_36
+  - first:
+      213: -2222189495596747548
+    second: Placeholder Healthbar_37
+  - first:
+      213: -3775584495710755686
+    second: Placeholder Healthbar_38
+  - first:
+      213: 153911475623749624
+    second: Placeholder Healthbar_39
+  - first:
+      213: -4461740294247706144
+    second: Placeholder Healthbar_40
+  - first:
+      213: 2108887683054527428
+    second: Placeholder Healthbar_41
+  - first:
+      213: 4540591862314626089
+    second: Placeholder Healthbar_42
+  - first:
+      213: 3656983122471108499
+    second: Placeholder Healthbar_43
+  - first:
+      213: 7368615955534641635
+    second: Placeholder Healthbar_44
+  - first:
+      213: -401097460582339231
+    second: Placeholder Healthbar_45
+  - first:
+      213: -7667332118672925076
+    second: Placeholder Healthbar_46
+  - first:
+      213: -4322504509474529883
+    second: Placeholder Healthbar_47
+  - first:
+      213: -7058315638993450714
+    second: Placeholder Healthbar_48
+  - first:
+      213: 4624325481065483586
+    second: Placeholder Healthbar_49
+  - first:
+      213: -6746249520504555050
+    second: Placeholder Healthbar_50
+  - first:
+      213: 3732461882257112270
+    second: Placeholder Healthbar_51
+  - first:
+      213: -8007620873054599077
+    second: Placeholder Healthbar_52
+  - first:
+      213: -7193914504588889288
+    second: Placeholder Healthbar_53
+  - first:
+      213: -4942005134633117350
+    second: Placeholder Healthbar_54
+  - first:
+      213: -7938934833045832296
+    second: Placeholder Healthbar_55
+  - first:
+      213: -4686913148366837177
+    second: Placeholder Healthbar_56
+  - first:
+      213: 8399799665332348284
+    second: Placeholder Healthbar_57
+  - first:
+      213: -5147416634245849177
+    second: Placeholder Healthbar_58
+  - first:
+      213: 5771072366600517302
+    second: Placeholder Healthbar_59
+  - first:
+      213: 7034911505788578933
+    second: Placeholder Healthbar_60
+  - first:
+      213: -6919730518217832169
+    second: Placeholder Healthbar_61
+  - first:
+      213: 5640162899836252455
+    second: Placeholder Healthbar_62
+  - first:
+      213: -3948465690302778618
+    second: Placeholder Healthbar_63
+  - first:
+      213: -3917929030189311013
+    second: Placeholder Healthbar_64
+  - first:
+      213: -6324783578797146430
+    second: Placeholder Healthbar_65
+  - first:
+      213: 7020755007974746105
+    second: Placeholder Healthbar_66
+  - first:
+      213: 4070810174603685187
+    second: Placeholder Healthbar_67
+  - first:
+      213: 4317572106446860807
+    second: Placeholder Healthbar_68
+  - first:
+      213: -1159195758325389193
+    second: Placeholder Healthbar_69
+  - first:
+      213: -2967369837248538270
+    second: Placeholder Healthbar_70
+  - first:
+      213: 398474248927667086
+    second: Placeholder Healthbar_71
+  - first:
+      213: -2226327705907573746
+    second: Placeholder Healthbar_72
+  - first:
+      213: -9166380941491605163
+    second: Placeholder Healthbar_73
+  - first:
+      213: 1330893729386703019
+    second: Placeholder Healthbar_74
+  - first:
+      213: -5877515081872307130
+    second: Placeholder Healthbar_75
+  - first:
+      213: 6796417077554790472
+    second: Placeholder Healthbar_76
+  - first:
+      213: -2798907544943356184
+    second: Placeholder Healthbar_77
+  - first:
+      213: 1648973303613025677
+    second: Placeholder Healthbar_78
+  - first:
+      213: 8855632903227078158
+    second: Placeholder Healthbar_79
+  - first:
+      213: -6398231377935029726
+    second: Placeholder Healthbar_80
+  - first:
+      213: -3461140712565199018
+    second: Placeholder Healthbar_81
+  - first:
+      213: -8938282856456961176
+    second: Placeholder Healthbar_82
+  - first:
+      213: 6185763321375570490
+    second: Placeholder Healthbar_83
+  - first:
+      213: -5916096131914515213
+    second: Placeholder Healthbar_84
+  - first:
+      213: -8428861781711442347
+    second: Placeholder Healthbar_85
+  - first:
+      213: -2493410964560656143
+    second: Placeholder Healthbar_86
+  - first:
+      213: 5474279969528969774
+    second: Placeholder Healthbar_87
+  - first:
+      213: 1088094779673467489
+    second: Placeholder Healthbar_88
+  - first:
+      213: -1307121385801089596
+    second: Placeholder Healthbar_89
+  - first:
+      213: -6230150855709734533
+    second: Placeholder Healthbar_90
+  - first:
+      213: 5454258218349959234
+    second: Placeholder Healthbar_91
+  - first:
+      213: 55047525025565736
+    second: Placeholder Healthbar_92
+  - first:
+      213: -8926229820999222204
+    second: Placeholder Healthbar_93
+  - first:
+      213: 5668677417126589
+    second: Placeholder Healthbar_94
+  - first:
+      213: -9184812843934013438
+    second: Placeholder Healthbar_95
+  - first:
+      213: 9160399070619568131
+    second: Placeholder Healthbar_96
+  - first:
+      213: -2624141241577814770
+    second: Placeholder Healthbar_97
+  - first:
+      213: 6193018157004173371
+    second: Placeholder Healthbar_98
+  - first:
+      213: 3602767100458905741
+    second: Placeholder Healthbar_99
+  - first:
+      213: 480831647931203272
+    second: Placeholder Healthbar_100
+  - first:
+      213: 497650872531254262
+    second: Placeholder Healthbar_101
+  - first:
+      213: -7835836227609707750
+    second: Placeholder Healthbar_102
+  - first:
+      213: -7991912487679644561
+    second: Placeholder Healthbar_103
+  - first:
+      213: 8654929355663929535
+    second: Placeholder Healthbar_104
+  - first:
+      213: -1600241535108389080
+    second: Placeholder Healthbar_105
+  - first:
+      213: 1383408299968573288
+    second: Placeholder Healthbar_106
+  - first:
+      213: -1167845624169114874
+    second: Placeholder Healthbar_107
+  - first:
+      213: -1777167129867687491
+    second: Placeholder Healthbar_108
+  - first:
+      213: -4226610145574240861
+    second: Placeholder Healthbar_109
+  - first:
+      213: -6244123482797933291
+    second: Placeholder Healthbar_110
+  - first:
+      213: 6750972429600134048
+    second: Placeholder Healthbar_111
+  - first:
+      213: -8944479406088794466
+    second: Placeholder Healthbar_112
+  - first:
+      213: -656964002653227193
+    second: Placeholder Healthbar_113
+  - first:
+      213: -9041119882818252960
+    second: Placeholder Healthbar_114
+  - first:
+      213: -8571328946597941019
+    second: Placeholder Healthbar_115
+  - first:
+      213: -3078671655633224220
+    second: Placeholder Healthbar_116
+  - first:
+      213: 6107763953364803714
+    second: Placeholder Healthbar_117
+  - first:
+      213: -1557016932691771836
+    second: Placeholder Healthbar_118
+  - first:
+      213: -8046045966193474979
+    second: Placeholder Healthbar_119
+  - first:
+      213: -4142164368537501426
+    second: Placeholder Healthbar_120
+  - first:
+      213: 4340836850730280422
+    second: Placeholder Healthbar_121
+  - first:
+      213: 5132227146076325376
+    second: Placeholder Healthbar_122
+  - first:
+      213: -5110828972719949250
+    second: Placeholder Healthbar_123
+  - first:
+      213: -7581996482027008766
+    second: Placeholder Healthbar_124
+  - first:
+      213: -8968401365869814288
+    second: Placeholder Healthbar_125
+  - first:
+      213: 1190910989628048603
+    second: Placeholder Healthbar_126
+  - first:
+      213: 8911991285974790220
+    second: Placeholder Healthbar_127
+  - first:
+      213: 7799605123797554744
+    second: Placeholder Healthbar_128
+  - first:
+      213: -3080500828987045621
+    second: Placeholder Healthbar_129
+  - first:
+      213: 805318612540829913
+    second: Placeholder Healthbar_130
+  - first:
+      213: -5415825933655017194
+    second: Placeholder Healthbar_131
+  - first:
+      213: 5660597265587567878
+    second: Placeholder Healthbar_132
+  - first:
+      213: 5373350247363327439
+    second: Placeholder Healthbar_133
+  - first:
+      213: -4699832152250469097
+    second: Placeholder Healthbar_134
+  - first:
+      213: 6023301708985138456
+    second: Placeholder Healthbar_135
+  - first:
+      213: 847040515156221047
+    second: Placeholder Healthbar_136
+  - first:
+      213: -9110341225220176809
+    second: Placeholder Healthbar_137
+  - first:
+      213: -839806492041144685
+    second: Placeholder Healthbar_138
+  - first:
+      213: 6697935920378041121
+    second: Placeholder Healthbar_139
+  - first:
+      213: 5393562548617531549
+    second: Placeholder Healthbar_140
+  - first:
+      213: -3603654501769595259
+    second: Placeholder Healthbar_141
+  - first:
+      213: -147739423680298725
+    second: Placeholder Healthbar_142
+  - first:
+      213: -1720206249110650295
+    second: Placeholder Healthbar_143
+  - first:
+      213: -1884309714554665012
+    second: Placeholder Healthbar_144
+  - first:
+      213: -7305022797854274500
+    second: Placeholder Healthbar_145
+  - first:
+      213: 4050843819923181094
+    second: Placeholder Healthbar_146
+  - first:
+      213: -6092120424263899738
+    second: Placeholder Healthbar_147
+  - first:
+      213: 8302795705710917652
+    second: Placeholder Healthbar_148
+  - first:
+      213: 4197505482006084346
+    second: Placeholder Healthbar_149
+  - first:
+      213: -3233924506850761869
+    second: Placeholder Healthbar_150
+  - first:
+      213: 6861533745501895802
+    second: Placeholder Healthbar_151
+  - first:
+      213: -6515361497795492585
+    second: Placeholder Healthbar_152
+  - first:
+      213: -1338677220757180863
+    second: Placeholder Healthbar_153
+  - first:
+      213: -4377440259099346986
+    second: Placeholder Healthbar_154
+  - first:
+      213: 8061556954961480683
+    second: Placeholder Healthbar_155
+  - first:
+      213: -1248191424895799233
+    second: Placeholder Healthbar_156
+  - first:
+      213: 7021045940161189976
+    second: Placeholder Healthbar_157
+  - first:
+      213: 2219920160825095786
+    second: Placeholder Healthbar_158
+  - first:
+      213: -6148106852137610352
+    second: Placeholder Healthbar_159
+  - first:
+      213: -7030598774625776505
+    second: Placeholder Healthbar_160
+  - first:
+      213: -3964599694681728065
+    second: Placeholder Healthbar_161
+  - first:
+      213: -1826984208458002703
+    second: Placeholder Healthbar_162
+  - first:
+      213: 4657652480937966954
+    second: Placeholder Healthbar_163
+  - first:
+      213: 1838950092925641260
+    second: Placeholder Healthbar_164
+  - first:
+      213: 6723864380190783064
+    second: Placeholder Healthbar_165
+  - first:
+      213: 4241784187892445923
+    second: Placeholder Healthbar_166
+  - first:
+      213: -4800570195133686164
+    second: Placeholder Healthbar_167
+  - first:
+      213: -4622964825517418693
+    second: Placeholder Healthbar_168
+  - first:
+      213: -6423483163517895835
+    second: Placeholder Healthbar_169
+  - first:
+      213: -1716898236456473766
+    second: Placeholder Healthbar_170
+  - first:
+      213: -775463270070262172
+    second: Placeholder Healthbar_171
+  - first:
+      213: 7818772887741600578
+    second: Placeholder Healthbar_172
+  - first:
+      213: -3348135046004780963
+    second: Placeholder Healthbar_173
+  - first:
+      213: 2402650226709650058
+    second: Placeholder Healthbar_174
+  - first:
+      213: -7639345530560643777
+    second: Placeholder Healthbar_175
+  - first:
+      213: -4527687002794097786
+    second: Placeholder Healthbar_176
+  - first:
+      213: 3814591278154429261
+    second: Placeholder Healthbar_177
+  - first:
+      213: -4375708296017693244
+    second: Placeholder Healthbar_178
+  - first:
+      213: -3275249516620306435
+    second: Placeholder Healthbar_179
+  - first:
+      213: -8559993595943264954
+    second: Placeholder Healthbar_180
+  - first:
+      213: -1541496870277435847
+    second: Placeholder Healthbar_181
+  - first:
+      213: 2227177300608400827
+    second: Placeholder Healthbar_182
+  - first:
+      213: 8754979132372418549
+    second: Placeholder Healthbar_183
+  - first:
+      213: 2928507115458223671
+    second: Placeholder Healthbar_184
+  - first:
+      213: -2010065279253647321
+    second: Placeholder Healthbar_185
+  - first:
+      213: -3337775875017438783
+    second: Placeholder Healthbar_186
+  - first:
+      213: 7379277108034597583
+    second: Placeholder Healthbar_187
+  - first:
+      213: 4594137562514512120
+    second: Placeholder Healthbar_188
+  - first:
+      213: -5237238888847293439
+    second: Placeholder Healthbar_189
+  - first:
+      213: 7254849568776935753
+    second: Placeholder Healthbar_190
+  - first:
+      213: -1234170241301490571
+    second: Placeholder Healthbar_191
+  - first:
+      213: -8667444898716547019
+    second: Placeholder Healthbar_192
+  - first:
+      213: -2255635241479127501
+    second: Placeholder Healthbar_193
+  - first:
+      213: 6910633753181082235
+    second: Placeholder Healthbar_194
+  - first:
+      213: 3283483239320025811
+    second: Placeholder Healthbar_195
+  - first:
+      213: -7193054402366140979
+    second: Placeholder Healthbar_196
+  - first:
+      213: 7693361627200516894
+    second: Placeholder Healthbar_197
+  - first:
+      213: 2256630031195364829
+    second: Placeholder Healthbar_198
+  - first:
+      213: 2535682334268289679
+    second: Placeholder Healthbar_199
+  - first:
+      213: -5772981659016409851
+    second: Placeholder Healthbar_200
+  - first:
+      213: 6346333793768100698
+    second: Placeholder Healthbar_201
+  - first:
+      213: 4227906978365615477
+    second: Placeholder Healthbar_202
+  - first:
+      213: -2744587944545501519
+    second: Placeholder Healthbar_203
+  - first:
+      213: 6805182182082221357
+    second: Placeholder Healthbar_204
+  - first:
+      213: 3883604160377316367
+    second: Placeholder Healthbar_205
+  - first:
+      213: -5549354894417688615
+    second: Placeholder Healthbar_206
+  - first:
+      213: 8363867463592272806
+    second: Placeholder Healthbar_207
+  - first:
+      213: 7229104559769809692
+    second: Placeholder Healthbar_208
+  - first:
+      213: 7218324298054535646
+    second: Placeholder Healthbar_209
+  - first:
+      213: 1567808206967817409
+    second: Placeholder Healthbar_210
+  - first:
+      213: -8133032886219626716
+    second: Placeholder Healthbar_211
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Placeholder Healthbar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc388f197979b800800000000000000
+      internalID: 628667184121920697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a3a92d2d46d16d0800000000000000
+      internalID: -3018145318629131756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33f6ba402a2f5710800000000000000
+      internalID: 1684111103840678719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c10311be1dd1fa0800000000000000
+      internalID: -5828271535211668397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01ca461fd1062020800000000000000
+      internalID: 2316541115992031503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61845e0267f702930800000000000000
+      internalID: 4116430204751398934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6b4ce2ac9e2d070800000000000000
+      internalID: 8129817331934476013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b978b794570069380800000000000000
+      internalID: -8964977504490387557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929e30b5adce63170800000000000000
+      internalID: 8157968197602240809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c628e9ad2c14fdf0800000000000000
+      internalID: -147461905346713916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb36f9d3a87675370800000000000000
+      internalID: 8311225480772543422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8633acfa9f42cfa0800000000000000
+      internalID: -5781971444508182898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309de7ecfe9e39300800000000000000
+      internalID: 257806819861125379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdbe17c8885bb750800000000000000
+      internalID: 6321743846424100299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e73089556735570800000000000000
+      internalID: 8454231035499216495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1269513595535d730800000000000000
+      internalID: 4023180499887691297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99be2d171f0187760800000000000000
+      internalID: 7455727812294667161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd845dba5a4dc280800000000000000
+      internalID: -9021472724969288253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f84084d76295660800000000000000
+      internalID: 7374968184316923781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3779d8bf81780b90800000000000000
+      internalID: -7275440335921514689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645f6460ac0105860800000000000000
+      internalID: 7516526237956109638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5189f61f8122ee1b0800000000000000
+      internalID: -5625521394013988843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048d99f4a714382a0800000000000000
+      internalID: -6736468624038832064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4aa6ee96401afd60800000000000000
+      internalID: 7924664389811481162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de339336e449fd470800000000000000
+      internalID: 8421612892599170029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab85c7769dba9540800000000000000
+      internalID: 5015529588982647719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7509a11160d8122c0800000000000000
+      internalID: -4458127098923806633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f879598d02af758e0800000000000000
+      internalID: -1704618914956863601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ec33d6f53474550800000000000000
+      internalID: 6144954293703396888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26db3de38e901200800000000000000
+      internalID: 148793077161252394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7c80aec53e01190800000000000000
+      internalID: -7993639350379690031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03039ec6394aceba0800000000000000
+      internalID: -6058286445625790416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6384a4f7b2a94b610800000000000000
+      internalID: 1636102076252178486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031b18925c5d02370800000000000000
+      internalID: 8295865556398092592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150567fc60201dc80800000000000000
+      internalID: -8299850409993416623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7eab75466349a370800000000000000
+      internalID: 8334266691957272189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc5c76114ce17b20800000000000000
+      internalID: 3130542980293483710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4f95b6d623921e0800000000000000
+      internalID: -2222189495596747548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9420b1b7ed6a9bc0800000000000000
+      internalID: -3775584495710755686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7e86febadc22200800000000000000
+      internalID: 153911475623749624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1915977d6b412c0800000000000000
+      internalID: -4461740294247706144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c369a3ac26444d10800000000000000
+      internalID: 2108887683054527428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cea4fdd3c630f30800000000000000
+      internalID: 4540591862314626089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder Healthbar_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f3d7c36c630c230800000000000000
+      internalID: 3656983122471108499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 94b133f06ec0b044592ce1cf0a56144f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Placeholder Healthbar_0: 628667184121920697
+      Placeholder Healthbar_1: -3018145318629131756
+      Placeholder Healthbar_10: 8311225480772543422
+      Placeholder Healthbar_11: -5781971444508182898
+      Placeholder Healthbar_12: 257806819861125379
+      Placeholder Healthbar_13: 6321743846424100299
+      Placeholder Healthbar_14: 8454231035499216495
+      Placeholder Healthbar_15: 4023180499887691297
+      Placeholder Healthbar_16: 7455727812294667161
+      Placeholder Healthbar_17: -9021472724969288253
+      Placeholder Healthbar_18: 7374968184316923781
+      Placeholder Healthbar_19: -7275440335921514689
+      Placeholder Healthbar_2: 1684111103840678719
+      Placeholder Healthbar_20: 7516526237956109638
+      Placeholder Healthbar_21: -5625521394013988843
+      Placeholder Healthbar_22: -6736468624038832064
+      Placeholder Healthbar_23: 7924664389811481162
+      Placeholder Healthbar_24: 8421612892599170029
+      Placeholder Healthbar_25: 5015529588982647719
+      Placeholder Healthbar_26: -4458127098923806633
+      Placeholder Healthbar_27: -1704618914956863601
+      Placeholder Healthbar_28: 6144954293703396888
+      Placeholder Healthbar_29: 148793077161252394
+      Placeholder Healthbar_3: -5828271535211668397
+      Placeholder Healthbar_30: -7993639350379690031
+      Placeholder Healthbar_31: -6058286445625790416
+      Placeholder Healthbar_32: 1636102076252178486
+      Placeholder Healthbar_33: 8295865556398092592
+      Placeholder Healthbar_34: -8299850409993416623
+      Placeholder Healthbar_35: 8334266691957272189
+      Placeholder Healthbar_36: 3130542980293483710
+      Placeholder Healthbar_37: -2222189495596747548
+      Placeholder Healthbar_38: -3775584495710755686
+      Placeholder Healthbar_39: 153911475623749624
+      Placeholder Healthbar_4: 2316541115992031503
+      Placeholder Healthbar_40: -4461740294247706144
+      Placeholder Healthbar_41: 2108887683054527428
+      Placeholder Healthbar_42: 4540591862314626089
+      Placeholder Healthbar_43: 3656983122471108499
+      Placeholder Healthbar_5: 4116430204751398934
+      Placeholder Healthbar_6: 8129817331934476013
+      Placeholder Healthbar_7: -8964977504490387557
+      Placeholder Healthbar_8: 8157968197602240809
+      Placeholder Healthbar_9: -147461905346713916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
